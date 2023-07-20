@@ -1,0 +1,1168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5381CF991EF0487564344D /* Pods_sampleclevertap_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EDA895EA4E3762C0F175C8 /* Pods_sampleclevertap_NotificationService.framework */; };
+		478B87D653DF2B0363FC6A0A /* Pods_sampleclevertapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105E227B3A24125697EEE060 /* Pods_sampleclevertapTests.framework */; };
+		5216E4BE29793EBF00C9478C /* hello.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5216E4BD29793EBF00C9478C /* hello.wav */; };
+		522FEE2228FD187C002E6198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FEE2128FD187C002E6198 /* AppDelegate.swift */; };
+		522FEE2428FD187C002E6198 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FEE2328FD187C002E6198 /* SceneDelegate.swift */; };
+		522FEE2628FD187C002E6198 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FEE2528FD187C002E6198 /* ViewController.swift */; };
+		522FEE2928FD187C002E6198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522FEE2728FD187C002E6198 /* Main.storyboard */; };
+		522FEE2B28FD1887002E6198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522FEE2A28FD1887002E6198 /* Assets.xcassets */; };
+		522FEE2E28FD1887002E6198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522FEE2C28FD1887002E6198 /* LaunchScreen.storyboard */; };
+		522FEE3928FD1887002E6198 /* sampleclevertapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FEE3828FD1887002E6198 /* sampleclevertapTests.swift */; };
+		522FEE4328FD1887002E6198 /* sampleclevertapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FEE4228FD1887002E6198 /* sampleclevertapUITests.swift */; };
+		522FEE4528FD1887002E6198 /* sampleclevertapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FEE4428FD1887002E6198 /* sampleclevertapUITestsLaunchTests.swift */; };
+		523F0A10292B8E350024C3C7 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F0A0F292B8E350024C3C7 /* NotificationService.swift */; };
+		523F0A14292B8E350024C3C7 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 523F0A0D292B8E350024C3C7 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		523F0A1D292B8EAC0024C3C7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52025D7B28FD4B7800D5D7A1 /* UserNotifications.framework */; };
+		523F0A1E292B8EAC0024C3C7 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52025D7D28FD4B7800D5D7A1 /* UserNotificationsUI.framework */; };
+		523F0A21292B8EAC0024C3C7 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F0A20292B8EAC0024C3C7 /* NotificationViewController.swift */; };
+		523F0A24292B8EAC0024C3C7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523F0A22292B8EAC0024C3C7 /* MainInterface.storyboard */; };
+		523F0A28292B8EAC0024C3C7 /* NotificationContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 523F0A1C292B8EAC0024C3C7 /* NotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52DC9E8B2A49999B0086A017 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DC9E8A2A49999B0086A017 /* WebViewViewController.swift */; };
+		C0495E4F6425D5CC0C600730 /* Pods_sampleclevertap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1282448F505B0F46DEE003 /* Pods_sampleclevertap.framework */; };
+		EDA1DA1A7E853FD8FC60B810 /* Pods_sampleclevertap_NotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33A1AA25552960E8334DCC9 /* Pods_sampleclevertap_NotificationContent.framework */; };
+		FB11C649BF40971102C596CE /* Pods_sampleclevertap_sampleclevertapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032A4D5E4B3606F5873193ED /* Pods_sampleclevertap_sampleclevertapUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		522FEE3528FD1887002E6198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522FEE1628FD187C002E6198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522FEE1D28FD187C002E6198;
+			remoteInfo = sampleclevertap;
+		};
+		522FEE3F28FD1887002E6198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522FEE1628FD187C002E6198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522FEE1D28FD187C002E6198;
+			remoteInfo = sampleclevertap;
+		};
+		523F0A12292B8E350024C3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522FEE1628FD187C002E6198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523F0A0C292B8E350024C3C7;
+			remoteInfo = NotificationService;
+		};
+		523F0A26292B8EAC0024C3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522FEE1628FD187C002E6198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523F0A1B292B8EAC0024C3C7;
+			remoteInfo = NotificationContent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5287395428FD4836006561AB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				523F0A14292B8E350024C3C7 /* NotificationService.appex in Embed App Extensions */,
+				523F0A28292B8EAC0024C3C7 /* NotificationContent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		032A4D5E4B3606F5873193ED /* Pods_sampleclevertap_sampleclevertapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleclevertap_sampleclevertapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E02B5990ED2FA5BCAECD7CB /* Pods-sampleclevertap-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-sampleclevertap-NotificationService/Pods-sampleclevertap-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		105E227B3A24125697EEE060 /* Pods_sampleclevertapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleclevertapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32678E820053560537A99CA7 /* Pods-sampleclevertap-sampleclevertapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap-sampleclevertapUITests.release.xcconfig"; path = "Target Support Files/Pods-sampleclevertap-sampleclevertapUITests/Pods-sampleclevertap-sampleclevertapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		364745EE66C912D265849C04 /* Pods-sampleclevertapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertapTests.release.xcconfig"; path = "Target Support Files/Pods-sampleclevertapTests/Pods-sampleclevertapTests.release.xcconfig"; sourceTree = "<group>"; };
+		52025D7B28FD4B7800D5D7A1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		52025D7D28FD4B7800D5D7A1 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		5216E4BD29793EBF00C9478C /* hello.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hello.wav; sourceTree = "<group>"; };
+		522FEE1E28FD187C002E6198 /* sampleclevertap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleclevertap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522FEE2128FD187C002E6198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		522FEE2328FD187C002E6198 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		522FEE2528FD187C002E6198 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		522FEE2828FD187C002E6198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		522FEE2A28FD1887002E6198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		522FEE2D28FD1887002E6198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		522FEE2F28FD1887002E6198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522FEE3428FD1887002E6198 /* sampleclevertapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleclevertapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522FEE3828FD1887002E6198 /* sampleclevertapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleclevertapTests.swift; sourceTree = "<group>"; };
+		522FEE3E28FD1887002E6198 /* sampleclevertapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleclevertapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522FEE4228FD1887002E6198 /* sampleclevertapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleclevertapUITests.swift; sourceTree = "<group>"; };
+		522FEE4428FD1887002E6198 /* sampleclevertapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleclevertapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		523F0A0D292B8E350024C3C7 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		523F0A0F292B8E350024C3C7 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		523F0A11292B8E350024C3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523F0A1C292B8EAC0024C3C7 /* NotificationContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		523F0A20292B8EAC0024C3C7 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		523F0A23292B8EAC0024C3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		523F0A25292B8EAC0024C3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523F0A2C292B90E40024C3C7 /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
+		5287394428FD44B8006561AB /* sampleclevertap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sampleclevertap.entitlements; sourceTree = "<group>"; };
+		52DC9E8A2A49999B0086A017 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		586C1CDB781D289DCABA7348 /* Pods-sampleclevertap-NotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap-NotificationContent.release.xcconfig"; path = "Target Support Files/Pods-sampleclevertap-NotificationContent/Pods-sampleclevertap-NotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		8B1282448F505B0F46DEE003 /* Pods_sampleclevertap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleclevertap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33A1AA25552960E8334DCC9 /* Pods_sampleclevertap_NotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleclevertap_NotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE4EB28D747B7840EF84ED7 /* Pods-sampleclevertap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap.debug.xcconfig"; path = "Target Support Files/Pods-sampleclevertap/Pods-sampleclevertap.debug.xcconfig"; sourceTree = "<group>"; };
+		B33BF685B84C0D6B6B32F0B9 /* Pods-sampleclevertap-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-sampleclevertap-NotificationService/Pods-sampleclevertap-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		C5908717DC94D9EE7DAA8364 /* Pods-sampleclevertap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap.release.xcconfig"; path = "Target Support Files/Pods-sampleclevertap/Pods-sampleclevertap.release.xcconfig"; sourceTree = "<group>"; };
+		D0EDA895EA4E3762C0F175C8 /* Pods_sampleclevertap_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sampleclevertap_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D01FC1F1EB19FA339C7B9 /* Pods-sampleclevertapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertapTests.debug.xcconfig"; path = "Target Support Files/Pods-sampleclevertapTests/Pods-sampleclevertapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB637509B22210DF709086F2 /* Pods-sampleclevertap-sampleclevertapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap-sampleclevertapUITests.debug.xcconfig"; path = "Target Support Files/Pods-sampleclevertap-sampleclevertapUITests/Pods-sampleclevertap-sampleclevertapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7BDB17699E05EFF027C6883 /* Pods-sampleclevertap-NotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleclevertap-NotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-sampleclevertap-NotificationContent/Pods-sampleclevertap-NotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522FEE1B28FD187C002E6198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0495E4F6425D5CC0C600730 /* Pods_sampleclevertap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522FEE3128FD1887002E6198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478B87D653DF2B0363FC6A0A /* Pods_sampleclevertapTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522FEE3B28FD1887002E6198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB11C649BF40971102C596CE /* Pods_sampleclevertap_sampleclevertapUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F0A0A292B8E350024C3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5381CF991EF0487564344D /* Pods_sampleclevertap_NotificationService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F0A19292B8EAC0024C3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F0A1E292B8EAC0024C3C7 /* UserNotificationsUI.framework in Frameworks */,
+				523F0A1D292B8EAC0024C3C7 /* UserNotifications.framework in Frameworks */,
+				EDA1DA1A7E853FD8FC60B810 /* Pods_sampleclevertap_NotificationContent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522FEE1528FD187C002E6198 = {
+			isa = PBXGroup;
+			children = (
+				5216E4BD29793EBF00C9478C /* hello.wav */,
+				522FEE2028FD187C002E6198 /* sampleclevertap */,
+				522FEE3728FD1887002E6198 /* sampleclevertapTests */,
+				522FEE4128FD1887002E6198 /* sampleclevertapUITests */,
+				523F0A0E292B8E350024C3C7 /* NotificationService */,
+				523F0A1F292B8EAC0024C3C7 /* NotificationContent */,
+				522FEE1F28FD187C002E6198 /* Products */,
+				8A4A9242DB7211F77DEF78DC /* Pods */,
+				AE35CDF889CEF24668D91C82 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		522FEE1F28FD187C002E6198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522FEE1E28FD187C002E6198 /* sampleclevertap.app */,
+				522FEE3428FD1887002E6198 /* sampleclevertapTests.xctest */,
+				522FEE3E28FD1887002E6198 /* sampleclevertapUITests.xctest */,
+				523F0A0D292B8E350024C3C7 /* NotificationService.appex */,
+				523F0A1C292B8EAC0024C3C7 /* NotificationContent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522FEE2028FD187C002E6198 /* sampleclevertap */ = {
+			isa = PBXGroup;
+			children = (
+				5287394428FD44B8006561AB /* sampleclevertap.entitlements */,
+				522FEE2128FD187C002E6198 /* AppDelegate.swift */,
+				522FEE2328FD187C002E6198 /* SceneDelegate.swift */,
+				522FEE2528FD187C002E6198 /* ViewController.swift */,
+				522FEE2728FD187C002E6198 /* Main.storyboard */,
+				522FEE2A28FD1887002E6198 /* Assets.xcassets */,
+				522FEE2C28FD1887002E6198 /* LaunchScreen.storyboard */,
+				522FEE2F28FD1887002E6198 /* Info.plist */,
+				52DC9E8A2A49999B0086A017 /* WebViewViewController.swift */,
+			);
+			path = sampleclevertap;
+			sourceTree = "<group>";
+		};
+		522FEE3728FD1887002E6198 /* sampleclevertapTests */ = {
+			isa = PBXGroup;
+			children = (
+				522FEE3828FD1887002E6198 /* sampleclevertapTests.swift */,
+			);
+			path = sampleclevertapTests;
+			sourceTree = "<group>";
+		};
+		522FEE4128FD1887002E6198 /* sampleclevertapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				522FEE4228FD1887002E6198 /* sampleclevertapUITests.swift */,
+				522FEE4428FD1887002E6198 /* sampleclevertapUITestsLaunchTests.swift */,
+			);
+			path = sampleclevertapUITests;
+			sourceTree = "<group>";
+		};
+		523F0A0E292B8E350024C3C7 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				523F0A2C292B90E40024C3C7 /* NotificationService.entitlements */,
+				523F0A0F292B8E350024C3C7 /* NotificationService.swift */,
+				523F0A11292B8E350024C3C7 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		523F0A1F292B8EAC0024C3C7 /* NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				523F0A20292B8EAC0024C3C7 /* NotificationViewController.swift */,
+				523F0A22292B8EAC0024C3C7 /* MainInterface.storyboard */,
+				523F0A25292B8EAC0024C3C7 /* Info.plist */,
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
+		8A4A9242DB7211F77DEF78DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE4EB28D747B7840EF84ED7 /* Pods-sampleclevertap.debug.xcconfig */,
+				C5908717DC94D9EE7DAA8364 /* Pods-sampleclevertap.release.xcconfig */,
+				EB637509B22210DF709086F2 /* Pods-sampleclevertap-sampleclevertapUITests.debug.xcconfig */,
+				32678E820053560537A99CA7 /* Pods-sampleclevertap-sampleclevertapUITests.release.xcconfig */,
+				D60D01FC1F1EB19FA339C7B9 /* Pods-sampleclevertapTests.debug.xcconfig */,
+				364745EE66C912D265849C04 /* Pods-sampleclevertapTests.release.xcconfig */,
+				B33BF685B84C0D6B6B32F0B9 /* Pods-sampleclevertap-NotificationService.debug.xcconfig */,
+				0E02B5990ED2FA5BCAECD7CB /* Pods-sampleclevertap-NotificationService.release.xcconfig */,
+				F7BDB17699E05EFF027C6883 /* Pods-sampleclevertap-NotificationContent.debug.xcconfig */,
+				586C1CDB781D289DCABA7348 /* Pods-sampleclevertap-NotificationContent.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE35CDF889CEF24668D91C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B1282448F505B0F46DEE003 /* Pods_sampleclevertap.framework */,
+				032A4D5E4B3606F5873193ED /* Pods_sampleclevertap_sampleclevertapUITests.framework */,
+				105E227B3A24125697EEE060 /* Pods_sampleclevertapTests.framework */,
+				D0EDA895EA4E3762C0F175C8 /* Pods_sampleclevertap_NotificationService.framework */,
+				52025D7B28FD4B7800D5D7A1 /* UserNotifications.framework */,
+				52025D7D28FD4B7800D5D7A1 /* UserNotificationsUI.framework */,
+				A33A1AA25552960E8334DCC9 /* Pods_sampleclevertap_NotificationContent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522FEE1D28FD187C002E6198 /* sampleclevertap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522FEE4828FD1887002E6198 /* Build configuration list for PBXNativeTarget "sampleclevertap" */;
+			buildPhases = (
+				27C0D7B3E4C28CC589B33E5C /* [CP] Check Pods Manifest.lock */,
+				522FEE1A28FD187C002E6198 /* Sources */,
+				522FEE1B28FD187C002E6198 /* Frameworks */,
+				522FEE1C28FD187C002E6198 /* Resources */,
+				8880E727031231C5D294AA22 /* [CP] Embed Pods Frameworks */,
+				5287395428FD4836006561AB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523F0A13292B8E350024C3C7 /* PBXTargetDependency */,
+				523F0A27292B8EAC0024C3C7 /* PBXTargetDependency */,
+			);
+			name = sampleclevertap;
+			productName = sampleclevertap;
+			productReference = 522FEE1E28FD187C002E6198 /* sampleclevertap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		522FEE3328FD1887002E6198 /* sampleclevertapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522FEE4B28FD1887002E6198 /* Build configuration list for PBXNativeTarget "sampleclevertapTests" */;
+			buildPhases = (
+				420BA78E2D3C1836D38A1CDF /* [CP] Check Pods Manifest.lock */,
+				522FEE3028FD1887002E6198 /* Sources */,
+				522FEE3128FD1887002E6198 /* Frameworks */,
+				522FEE3228FD1887002E6198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522FEE3628FD1887002E6198 /* PBXTargetDependency */,
+			);
+			name = sampleclevertapTests;
+			productName = sampleclevertapTests;
+			productReference = 522FEE3428FD1887002E6198 /* sampleclevertapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		522FEE3D28FD1887002E6198 /* sampleclevertapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522FEE4E28FD1887002E6198 /* Build configuration list for PBXNativeTarget "sampleclevertapUITests" */;
+			buildPhases = (
+				CEA9894D1356EDA9244389C8 /* [CP] Check Pods Manifest.lock */,
+				522FEE3A28FD1887002E6198 /* Sources */,
+				522FEE3B28FD1887002E6198 /* Frameworks */,
+				522FEE3C28FD1887002E6198 /* Resources */,
+				558F577933588D13EADD6E0D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522FEE4028FD1887002E6198 /* PBXTargetDependency */,
+			);
+			name = sampleclevertapUITests;
+			productName = sampleclevertapUITests;
+			productReference = 522FEE3E28FD1887002E6198 /* sampleclevertapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		523F0A0C292B8E350024C3C7 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523F0A15292B8E350024C3C7 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				7BDA4F15697B98F826609F45 /* [CP] Check Pods Manifest.lock */,
+				523F0A09292B8E350024C3C7 /* Sources */,
+				523F0A0A292B8E350024C3C7 /* Frameworks */,
+				523F0A0B292B8E350024C3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 523F0A0D292B8E350024C3C7 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		523F0A1B292B8EAC0024C3C7 /* NotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523F0A29292B8EAD0024C3C7 /* Build configuration list for PBXNativeTarget "NotificationContent" */;
+			buildPhases = (
+				A797C2AF0F8F00824C891277 /* [CP] Check Pods Manifest.lock */,
+				523F0A18292B8EAC0024C3C7 /* Sources */,
+				523F0A19292B8EAC0024C3C7 /* Frameworks */,
+				523F0A1A292B8EAC0024C3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationContent;
+			productName = NotificationContent;
+			productReference = 523F0A1C292B8EAC0024C3C7 /* NotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522FEE1628FD187C002E6198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					522FEE1D28FD187C002E6198 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					522FEE3328FD1887002E6198 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 522FEE1D28FD187C002E6198;
+					};
+					522FEE3D28FD1887002E6198 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 522FEE1D28FD187C002E6198;
+					};
+					523F0A0C292B8E350024C3C7 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					523F0A1B292B8EAC0024C3C7 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 522FEE1928FD187C002E6198 /* Build configuration list for PBXProject "sampleclevertap" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 522FEE1528FD187C002E6198;
+			productRefGroup = 522FEE1F28FD187C002E6198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522FEE1D28FD187C002E6198 /* sampleclevertap */,
+				522FEE3328FD1887002E6198 /* sampleclevertapTests */,
+				522FEE3D28FD1887002E6198 /* sampleclevertapUITests */,
+				523F0A0C292B8E350024C3C7 /* NotificationService */,
+				523F0A1B292B8EAC0024C3C7 /* NotificationContent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522FEE1C28FD187C002E6198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522FEE2E28FD1887002E6198 /* LaunchScreen.storyboard in Resources */,
+				5216E4BE29793EBF00C9478C /* hello.wav in Resources */,
+				522FEE2B28FD1887002E6198 /* Assets.xcassets in Resources */,
+				522FEE2928FD187C002E6198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522FEE3228FD1887002E6198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522FEE3C28FD1887002E6198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F0A0B292B8E350024C3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F0A1A292B8EAC0024C3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F0A24292B8EAC0024C3C7 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27C0D7B3E4C28CC589B33E5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sampleclevertap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		420BA78E2D3C1836D38A1CDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sampleclevertapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		558F577933588D13EADD6E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sampleclevertap-sampleclevertapUITests/Pods-sampleclevertap-sampleclevertapUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sampleclevertap-sampleclevertapUITests/Pods-sampleclevertap-sampleclevertapUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sampleclevertap-sampleclevertapUITests/Pods-sampleclevertap-sampleclevertapUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BDA4F15697B98F826609F45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sampleclevertap-NotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8880E727031231C5D294AA22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sampleclevertap/Pods-sampleclevertap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sampleclevertap/Pods-sampleclevertap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sampleclevertap/Pods-sampleclevertap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A797C2AF0F8F00824C891277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sampleclevertap-NotificationContent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA9894D1356EDA9244389C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sampleclevertap-sampleclevertapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522FEE1A28FD187C002E6198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522FEE2628FD187C002E6198 /* ViewController.swift in Sources */,
+				522FEE2228FD187C002E6198 /* AppDelegate.swift in Sources */,
+				52DC9E8B2A49999B0086A017 /* WebViewViewController.swift in Sources */,
+				522FEE2428FD187C002E6198 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522FEE3028FD1887002E6198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522FEE3928FD1887002E6198 /* sampleclevertapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522FEE3A28FD1887002E6198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522FEE4328FD1887002E6198 /* sampleclevertapUITests.swift in Sources */,
+				522FEE4528FD1887002E6198 /* sampleclevertapUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F0A09292B8E350024C3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F0A10292B8E350024C3C7 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523F0A18292B8EAC0024C3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523F0A21292B8EAC0024C3C7 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		522FEE3628FD1887002E6198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522FEE1D28FD187C002E6198 /* sampleclevertap */;
+			targetProxy = 522FEE3528FD1887002E6198 /* PBXContainerItemProxy */;
+		};
+		522FEE4028FD1887002E6198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522FEE1D28FD187C002E6198 /* sampleclevertap */;
+			targetProxy = 522FEE3F28FD1887002E6198 /* PBXContainerItemProxy */;
+		};
+		523F0A13292B8E350024C3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523F0A0C292B8E350024C3C7 /* NotificationService */;
+			targetProxy = 523F0A12292B8E350024C3C7 /* PBXContainerItemProxy */;
+		};
+		523F0A27292B8EAC0024C3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523F0A1B292B8EAC0024C3C7 /* NotificationContent */;
+			targetProxy = 523F0A26292B8EAC0024C3C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		522FEE2728FD187C002E6198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522FEE2828FD187C002E6198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		522FEE2C28FD1887002E6198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522FEE2D28FD1887002E6198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		523F0A22292B8EAC0024C3C7 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523F0A23292B8EAC0024C3C7 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522FEE4628FD1887002E6198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		522FEE4728FD1887002E6198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522FEE4928FD1887002E6198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE4EB28D747B7840EF84ED7 /* Pods-sampleclevertap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sampleclevertap/sampleclevertap.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sampleclevertap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		522FEE4A28FD1887002E6198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5908717DC94D9EE7DAA8364 /* Pods-sampleclevertap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sampleclevertap/sampleclevertap.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sampleclevertap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		522FEE4C28FD1887002E6198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60D01FC1F1EB19FA339C7B9 /* Pods-sampleclevertapTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.sampleclevertapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleclevertap.app/sampleclevertap";
+			};
+			name = Debug;
+		};
+		522FEE4D28FD1887002E6198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364745EE66C912D265849C04 /* Pods-sampleclevertapTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.sampleclevertapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleclevertap.app/sampleclevertap";
+			};
+			name = Release;
+		};
+		522FEE4F28FD1887002E6198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB637509B22210DF709086F2 /* Pods-sampleclevertap-sampleclevertapUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.sampleclevertapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sampleclevertap;
+			};
+			name = Debug;
+		};
+		522FEE5028FD1887002E6198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32678E820053560537A99CA7 /* Pods-sampleclevertap-sampleclevertapUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.sampleclevertapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sampleclevertap;
+			};
+			name = Release;
+		};
+		523F0A16292B8E350024C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33BF685B84C0D6B6B32F0B9 /* Pods-sampleclevertap-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523F0A17292B8E350024C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E02B5990ED2FA5BCAECD7CB /* Pods-sampleclevertap-NotificationService.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		523F0A2A292B8EAD0024C3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BDB17699E05EFF027C6883 /* Pods-sampleclevertap-NotificationContent.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS.NotificationContent1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		523F0A2B292B8EAD0024C3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586C1CDB781D289DCABA7348 /* Pods-sampleclevertap-NotificationContent.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9355AB4R7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationContent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationContent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.CleverTapIOS.NotificationContent1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522FEE1928FD187C002E6198 /* Build configuration list for PBXProject "sampleclevertap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522FEE4628FD1887002E6198 /* Debug */,
+				522FEE4728FD1887002E6198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522FEE4828FD1887002E6198 /* Build configuration list for PBXNativeTarget "sampleclevertap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522FEE4928FD1887002E6198 /* Debug */,
+				522FEE4A28FD1887002E6198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522FEE4B28FD1887002E6198 /* Build configuration list for PBXNativeTarget "sampleclevertapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522FEE4C28FD1887002E6198 /* Debug */,
+				522FEE4D28FD1887002E6198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522FEE4E28FD1887002E6198 /* Build configuration list for PBXNativeTarget "sampleclevertapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522FEE4F28FD1887002E6198 /* Debug */,
+				522FEE5028FD1887002E6198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523F0A15292B8E350024C3C7 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523F0A16292B8E350024C3C7 /* Debug */,
+				523F0A17292B8E350024C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523F0A29292B8EAD0024C3C7 /* Build configuration list for PBXNativeTarget "NotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523F0A2A292B8EAD0024C3C7 /* Debug */,
+				523F0A2B292B8EAD0024C3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522FEE1628FD187C002E6198 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_sampleclevertapTests {
+  umbrella header "Pods-sampleclevertapTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
